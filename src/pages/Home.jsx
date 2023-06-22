@@ -22,7 +22,7 @@ function Home() {
           <div className="flex items-center ml-4">
             <input
               type="text"
-              className="text-sm w-80 h-8 px-4"
+              className="text-sm w-[375px] h-8 px-4"
               placeholder="Search for products, brands and more"
             />
             <svg
@@ -30,10 +30,21 @@ function Home() {
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
+              strokeWidth={2}
               className="w-6 h-6 ml-[-30px] text-blue-700"
             >
               <path d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
             </svg>
+            <button className="bg-white text-blue-700 ml-4 h-8 px-12 font-semibold">
+              Login
+            </button>
+          </div>
+          <div className="ml-8 text-white font-semibold">
+            <ul className="flex flex-row gap-10">
+              <li>Become a Seller</li>
+              <li>More</li>
+              <li>Cart</li>
+            </ul>
           </div>
         </nav>
       </div>
